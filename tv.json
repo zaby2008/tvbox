@@ -17,7 +17,7 @@
       "name": "创想|厂长",
       "type": 3,
       "playerType": "2",
-      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zaby2008/tvbox/main/drpy2.min.js",
       "ext": "https://d.kstore.space/download/6296/js/厂长.js"
     },
     {	
