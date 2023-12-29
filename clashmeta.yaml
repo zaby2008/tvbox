@@ -40,17 +40,17 @@ proxies:
 #==============================（vless-reality-vision节点）
 - name: vless-reality-vision节点               #可自定义名称
   type: vless
-  server: 1.2.3.4                             #解析的域名或IP
-  port: 12345                                 #自定义的端口
-  uuid: f897325d-053d-45d1-899c-566692331f8   #自定义的uuid
+  server: 2406:cb40:0:1025:769::1                            #解析的域名或IP
+  port: 2671                                #自定义的端口
+  uuid: 05559a36-59f3-4fc7-89bb-ffe2d84b21c9   #自定义的uuid
   network: tcp
   udp: true
   tls: true
   flow: xtls-rprx-vision
-  servername: www.yahoo.com                   #自定义的第三方域名
+  servername: addons.mozilla.org                 #自定义的第三方域名
   reality-opts: 
-    public-key: 4CiE7y7ZPBXIZWzMwphuSH7qdZyisNjD3CDQGjmilmI    #自定义的public-key
-    short-id: a8c031ce                        #自定义的short-id
+    public-key: gqG_86zeBy37roX5qwSWBMcdmxdHim3_gCiOE8IfGy8    #自定义的public-key
+    short-id:                        #自定义的short-id
   client-fingerprint: chrome                  #自定义的浏览器指纹
 
 #==============================（vless-reality-grpc节点）
